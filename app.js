@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/user",userRouter)
 
 dotenv.config({
-  path:"./config.env"
+  path:"./configurations/config.env"
 });
 
 
