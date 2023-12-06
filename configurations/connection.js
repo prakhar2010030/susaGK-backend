@@ -3,9 +3,9 @@ import mysql from "mysql";
 
 console.log()
 export const pool = mysql.createPool({
-  host: process.env.HOST ,
-  user: process.env.USER,
-  password: '',
-  database: process.env.DATABASE,
+  host: "bnfcwznwc11qwl02jp18-mysql.services.clever-cloud.com" ,
+  user: "uz6xqnucf5begqeb",
+  password: "0zJbShvPzOt3jFY0P7Id",
+  database: "bnfcwznwc11qwl02jp18",
   connectionLimit:10
 });
